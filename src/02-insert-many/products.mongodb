@@ -4,23 +4,165 @@ db.products.drop()
 
 db.products.insertMany([
     {
-        _id: self.crypto.randomUUID,
-        name: "Botella de agua para perros",
-        price: 100
+        _id: 1,
+        title: "Botella de agua para perros",
+        desciption: "Esta es una botella de agua la cual le ayudara a tu querido perro a refrscarse si de pronto esta fuera de casa ",
+        price: 100.000,
+        category: "Alimento",
+        image: "../image/bebedor_agua.jpg"
     },
     {
         _id: 2,
-        name: "Product 2",
-        price: 200
+        title: "Golosinas para perros",
+        desciption: "Este es un producto el cual le puedes dar a tu mascota cuando se halla portado bien ",
+        price: 30.000,
+        category: "Premios",
+        image: "../image/premios.jpg"
     },
     {
         _id: 3,
-        name: "Product 3",
-        price: 300
+        title: "Alfombra para perros",
+        desciption: "Este es uno de los productos los cuales nos ayudara para poder limpiar el ambiente de nuestros caninos ",
+        price: 50.000,
+        category: "Limpieza",
+        image: "../image/alfombra.jpg"
     },
     {
         _id: 4,
-        name: "Product 4",
-        price: 400
-    }
+        title: "Comida humeda para perros",
+        desciption: "Este es uno de los productos los cuales le puede dar a tu perro cuando le cuesta digerir la comida solida ",
+        price: 45.000,
+        category: "Alimento",
+        image: "../image/comidaHumeda.jpg"
+    },
+    {
+        _id: 5,
+        title: "Juguete chirriante para perros",
+        desciption: "Este es un juguete el cual le puedes dar a tu perro para que se distriaga y juegue ",
+        price: 45.000,
+        category: "Juguete",
+        image: "../image/chirriant.jpg"
+    },
+    {
+        _id: 6,
+        title: "Collar anti-pulgas",
+        desciption: "Este es un metodo el cual se utiliza para la salud del canino y evita el contagio de pulgas ",
+        price: 25.000,
+        category: "Salud",
+        image: "../image/collarAntiPulgas.jpg"
+    },
+    {
+        _id: 7,
+        title: "Anti-Biotico natural",
+        desciption: "Este es un medicamento para su canino cuando sufre una infeccion, ademas es natural y trae pocas contraindicaciones ",
+        price: 55.000,
+        category: "Salud",
+        image: "../image/antioBioticos.jpg"
+    },
+    {
+        _id: 8,
+        title: "Juego de Arnes para perros",
+        desciption: "Este es un producto el cual le puede beneficiar a su canino ademas de lucirle de una manera excelente ",
+        price: 43.000,
+        category: "Collar para Perros",
+        image: "../image/collar.jpg"
+    },
+    {
+        _id: 9,
+        title: "Cama lavable para perro",
+        desciption: "Este es un producto el cual le puedes beneficiar a tu canino ademas de ser lavable como lo dice su nombre y reutilizable ",
+        price: 130.000,
+        category: "Cama y muebles",
+        image: "../image/camaLavable.jpg"
+    },
+    {
+        _id: 10,
+        title: "Aerosol para evitar masticar",
+        desciption: "Este es un producto el cual puedes utilizar para evitar que tu canino mastique los objetos ",
+        price: 80.000,
+        category: "Entrenamiento",
+        image: "../image/aerosol.jpg"
+    },
+    {
+        _id: 11,
+        title: "Pijama para perro",
+        desciption: "Producto el cual puedes utilizar cuando tu canino tenga frio o esten en temporada de invierno",
+        price: 140.000,
+        category: "Vestuario",
+        image: "../image/pijama.jpg"
+    },
+    {
+        _id: 12,
+        title: "Poste rascador de gatos",
+        desciption: "Este es un producto el cual puedes usar para evitar que tu gato destroce los artefactos del hogar y solo juegue con el ",
+        price: 55.000,
+        category: "Rascadores",
+        image: "../image/rascador.jpg"
+    },
+    {
+        _id: 13,
+        title: "Hierba gatera",
+        desciption: "Este es uno de los productos los cuales le encantan a tu gato ademas le da un efecto de enmariguanado ",
+        price: 200.000,
+        category: "Premios",
+        image: "../image/hierba.jpg"
+    },
+    {
+        _id: 14,
+        title: "Arenero de gato",
+        desciption: "Este es un producto el cual se utiliza para el aseo de tus felinos ademas de mostrarles donde deben hacer sus necesidades ",
+        price: 15.000,
+        category: "Arenero",
+        image: "../image/arenero.jpg"
+    },
+    {
+        _id: 15,
+        title: "Cepillo de aseo ",
+        desciption: "Este es un producto el cual puedes utilizar para eliminar el exceso de pelo de felino ",
+        price: 35.000,
+        category: "Aseo",
+        image: "../image/cepilloGato.jpg"
+    },
+    {
+        _id: 16,
+        title: "Cama Cueva ",
+        desciption: "Este es un producto el cual puedes utilizar para que tu felino descanse ",
+        price: 98.000,
+        category: "Cama",
+        image: "../image/cuevaCama.jpg"
+    },
+    {
+        _id: 17,
+        title: "Gel oral",
+        desciption: "Este es un medicamento para su felino el cual le aporta vitaminas y probioticos ",
+        price: 65.000,
+        category: "Salud",
+        image: "../image/gelOral.jpg"
+    },
+    {
+        _id: 18,
+        title: "Tubo tunel ",
+        desciption: "Este es un juguete el cual le permite al felino sentir seguridad y un lugar de tranquilidad ",
+        price: 103.000,
+        category: "Juguete",
+        image: "../image/tuboTunel.jpg"
+    },
+    {
+        _id: 19,
+        title: "Cama de conejillo",
+        desciption: "Este producto es para tu roedor para que pueda dormir y descansar de manera adecuada ",
+        price: 170.000,
+        category: "Cama",
+        image: "../image/camaConejillo.jpg"
+    },
+    {
+        _id: 20,
+        title: "Transporador ",
+        desciption: "Este es un producto para transportar tus animales chicos de manera comoda ",
+        price: 200.000,
+        category: "transportador",
+        image: "../image/transportador.jpg"
+    },
+
+
 ])

@@ -1,8 +1,9 @@
 use("pet_store");
+
 db.products.insertOne(
   {
     _id: 1,
     name: "Product 1",
-    price: 100
+    price: 100,
   }
 )
