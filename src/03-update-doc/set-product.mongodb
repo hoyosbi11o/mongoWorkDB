@@ -1,0 +1,103 @@
+use('pet_store')
+db.products.updateOne(
+    {
+        _id:1
+    },
+    {
+        $set:{
+            title:"Agua Portable",
+            price:160.000,
+            category:"salud"
+        }
+    },
+    {
+        _id:11
+    },
+    {
+        $set:{
+            title:"Abrigo para perros",
+            price:170.000,
+            category:"Ropa"
+        }
+    }, {
+        _id:10
+    },
+    {
+        $set:{
+            title:"Aerosol de comportamiento",
+            price:200.000,
+            category:"Entrenar"
+        }
+    },
+    {
+        _id:3
+    },
+    {
+        $set:{
+            title:"Tapete para perros",
+            price:180.000,
+            category:"Aseo"
+        }
+    },
+    {
+        _id:9
+    },
+    {
+        $set:{
+            title:"Cama para Gatos",
+            price:190.000,
+            category:"Cama"
+        }
+    },
+    {
+        _id:16
+    },
+    {
+        $set:{
+            title:"Cama Tunel",
+            price:189.000,
+            category:"Mueble"
+        }
+    },
+    {
+        _id:4
+    },
+    {
+        $set:{
+            title:"Comida Blanda",
+            price:134.000,
+            category:"Alimento"
+        }
+    },
+    {
+        _id:2
+    },
+    {
+        $set:{
+            title:"Premios para perros",
+            price:155.000,
+            category:"Premio"
+        }
+    },
+    {
+        _id:13
+    },
+    {
+        $set:{
+            title:"Mariaguana de gato",
+            price:156.000,
+            category:"Drogas"
+        }
+    },
+    {
+        _id:20
+    },
+    {
+        $set:{
+            title:"Transporte",
+            price:120.000,
+            category:"Transporte"
+        }
+    }
+
+)
